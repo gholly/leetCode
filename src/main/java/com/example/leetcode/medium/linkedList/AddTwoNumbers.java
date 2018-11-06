@@ -1,5 +1,7 @@
-package com.example.leetcode.medium;
+package com.example.leetcode.medium.linkedList;
 
+
+import com.example.leetcode.medium.linkedList.model.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,14 +13,6 @@ import java.util.List;
  */
 public class AddTwoNumbers {
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         List<ListNode> listNodeList = new ArrayList<>();
